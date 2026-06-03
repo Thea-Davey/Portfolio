@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pebble Press | Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body class="bg-gray-50 text-slate-900 font-sans antialiased">
+
+    <!-- Top Cohesive Header / Back Navigation -->
+    <header class="bg-slate-900 text-white py-6 px-6 shadow-md flex justify-between items-center">
+        <a href="index.html"
+            class="flex items-center gap-2 text-indigo-400 hover:text-indigo-300 font-bold tracking-wider uppercase text-xs transition-colors duration-200">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18">
+                </path>
+            </svg>
+            Back to Portfolio
+        </a>
+        <span class="text-xs font-bold tracking-widest uppercase text-slate-400">THEA DAVEY</span>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-5xl mx-auto px-6 pt-16 pb-24">
+
+        <!-- Project Title, Date, and CTA Button -->
+        <div
+            class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-8 border-b border-slate-200">
+            <div>
+                <h1 class="text-4xl font-black text-slate-900 uppercase tracking-tight">Pebble Press</h1>
+                <p class="text-indigo-600 font-bold tracking-wider uppercase text-xs mt-2">
+                    2024
+                </p>
+            </div>
+            <a href="https://www.figma.com/proto/r6QP7dgO4el0EPaA6Zkior/Davey_Midterms?node-id=27-602&starting-point-node-id=27%3A602&t=4iQKOiq1SQg23xDL-1"
+                target="_blank"
+                class="figma-btn">
+                GO TO FIGMA PROTOTYPE
+            </a>
+        </div>
+
+        <!-- Project Description -->
+        <div class="mt-8">
+            <h2 class="text-slate-400 font-bold tracking-widest uppercase text-xs mb-3">About the Project</h2>
+            <p class="text-slate-600 text-lg leading-relaxed max-w-3xl">
+                A charming, minimalist news curation application concept designed to deliver a clutter-free reading
+                experience. Combining a "cute and simple" design aesthetic with clean typography, the prototype
+                reimagines daily information consumption. It features personalized news feeds, digestible summary cards,
+                and intuitive category filtering to keep users updated on current events without media fatigue.
+            </p>
+        </div>
+
+        <!-- Project Image Placeholders -->
+        <div class="mt-16">
+            <h2 class="text-slate-400 font-bold tracking-widest uppercase text-xs mb-6">Sample Images</h2>
+            <div class="grid grid-rows-1 md:grid-rows-2 gap-8 max-w-8xl mx-auto">
+                <div
+                    class="image-card">
+                    <img src="pebblepress1.png" alt="pebblepress Screenshot 1" class="w-full h-auto block" />
+                </div>
+
+                <div
+                    class="image-card">
+                    <img src="pebblepress2.png" alt="pebblepress Screenshot 2" class="w-full h-auto block" />
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center pb-12 mt-20 border-t border-slate-200 pt-8">
+        <p class="text-slate-400 text-xs font-bold tracking-widest uppercase mb-2">
+            Computer Science @ DLSU-D
+        </p>
+        <div class="h-1 w-8 bg-slate-200 mx-auto"></div>
+    </footer>
+
+</body>
+
+</html>
